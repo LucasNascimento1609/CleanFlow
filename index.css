@@ -1,0 +1,839 @@
+.icon {
+    position: absolute;
+    top: 1024px;
+    left: 1px;
+    width: 100%;
+    height: 2000px;
+    object-fit: cover;
+}
+.firefly-crie-imagens-de-fundo {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 1024px;
+    object-fit: cover;
+}
+.pexels-photo-by-gelgas-airlang {
+    position: absolute;
+    top: 3024px;
+    width: 100%;
+    height: 2152px;
+    object-fit: cover;
+    opacity: 0.33;
+}
+.bem-vindo-a {
+    margin: 0;
+}
+.bem-vindo-a-container {
+    position: absolute;
+    top: 248px;
+    left: 80px;
+    font-size: var(--bold-h3-sub-head-bold-size);
+    letter-spacing: -0.03em;
+    line-height: 155.99%;
+}
+.frame-child {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 531.5px);
+    background-color: var(--color-gainsboro);
+    width: 1064px;
+    height: 945px;
+}
+.frame-item {
+    width: 250px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    height: 392px;
+    object-fit: cover;
+    z-index: 0;
+}
+.cidade-de-so {
+    width: 239px;
+    position: absolute;
+    margin: 0 !important;
+    top: 235px;
+    left: 5px;
+    display: inline-block;
+    z-index: 1;
+}
+.ver-notcia {
+    font-size: 22Spx;
+    font-weight: bolder;
+    color: var(--color-style-padro-white);
+    font-family: var(--regular-h6-pargrafo-regular);
+}
+.ver-notcia-wrapper {
+    width: 150px;
+    margin: 0 !important;
+    position: absolute;
+    top: 342px;
+    left: 20%;
+    border-radius: var(--br-3xs);
+    background-color: var(--foundation-secondary-secondary-500);
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs) 0px;
+    box-sizing: border-box;
+    z-index: 2;
+    font-size: var(--font-size-base);
+}
+.rectangle-group {
+    border-radius: var(--br-3xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-3xs);
+}
+.senado-quer-prioridade {
+    width: 239px;
+    position: absolute;
+    margin: 0 !important;
+    top: 205px;
+    left: calc(50% - 119px);
+    display: inline-block;
+    z-index: 1;
+}
+.frame-parent0 {
+    position: absolute;
+    top: 285px;
+    left: calc(50% - 459.5px);
+    width: 920px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 42px;
+}
+.fique-por-dentro-container {
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 402.5px);
+    font-size: var(--font-size-17xl);
+    display: inline-block;
+    font-family: var(--regular-h6-pargrafo-regular);
+    color: var(--color-black);
+    text-align: center;
+    width: 806px;
+}
+.btn_ver-noticia {
+    font-weight: bolder;
+    color: var(--color-style-padro-white);
+    font-family: var(--regular-h6-pargrafo-regular);
+    position: absolute;
+    top: 790px;
+    left: calc(50% - 185.5px);
+    background-color: var(--foundation-secondary-secondary-500);
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+    border-radius: var(--br-3xs);
+    border-color: white;
+    padding: var(--padding-3xs);
+}
+.rectangle-parent {
+    position: absolute;
+    top: 671px;
+    left: calc(50% - 532px);
+    width: 1065px;
+    height: 945px;
+    font-size: var(--bold-h5-sub-ttulo-bold-size);
+    font-family: var(--font-inter);
+}
+.mapa-de-denncias {
+    position: absolute;
+    top: 1767px;
+    left: 80px;
+    font-size: var(--font-size-17xl);
+}
+.desktop-1-child {
+    position: absolute;
+    top: 1868px;
+    left: calc(50% - 601px);
+    width: 1202px;
+    height: 720px;
+    overflow: hidden;
+}
+.este-mapa-apresenta-container {
+    position: absolute;
+    top: 2704px;
+    left: 80px;
+    display: inline-block;
+    width: 777px;
+}
+.btn_faca_denuncia{
+    position: absolute;
+    color: white;
+    top: 2778px;
+    left: 999px;
+    background-color: var(--foundation-secondary-secondary-500);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: var(--br-3xs);
+    border-color: transparent;
+    padding: 14px;
+}
+.btn-inicio {
+position: absolute;
+font-weight: bolder;
+color: white;
+top: 390px;
+left: 80px;
+background-color: var(--foundation-secondary-secondary-600);
+height: 56px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+font-size: var(--font-size-5xl);
+font-family: var(--font-inter);
+border-radius: var(--br-3xs);
+border-color: transparent;
+padding: var(--padding-3xs);
+}
+.qual-nosso-objetivo {
+    position: absolute;
+    top: 3175px;
+    left: calc(50% - 207px);
+    font-size: 40px;
+    text-align: center;
+}
+.mask-group-icon {
+    position: absolute;
+    top: 58.55px;
+    left: 164.66px;
+    width: 115.3px;
+    height: 37.6px;
+    object-fit: cover;
+}
+.clean {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 800;
+}
+.faucet-1-icon {
+    position: absolute;
+    top: 2.44px;
+    left: 136px;
+    width: 56.1px;
+    height: 56.1px;
+    object-fit: cover;
+}
+.logo {
+    width: 280px;
+    position: relative;
+    height: 96.1px;
+}
+.brasul-icon {
+    width: 36px;
+    position: relative;
+    height: 36px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.portugus-do-brasil {
+    position: relative;
+    letter-spacing: -0.03em;
+    line-height: 155.99%;
+}
+.down-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.brasul-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: var(--bold-h5-sub-ttulo-bold-size);
+    font-family: var(--regular-h6-pargrafo-regular);
+}
+.logo-parent {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+}
+.instagram-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 28px;
+}
+.frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 47px;
+}
+.sobre-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mid);
+    font-size: var(--regular-h6-pargrafo-regular-size);
+    color: var(--color-style-secondary-secondary-100);
+}
+.empresa-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+}
+.android-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+}
+.frame-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 87px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    font-family: var(--regular-h6-pargrafo-regular);
+}
+.line-icon {
+    width: 1180px;
+    position: relative;
+    max-height: 100%;
+}
+.frame-group {
+    position: absolute;
+    bottom: 0px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(138, 138, 138, 0.1);
+    border-top: 5px solid var(--color-style-padro-white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 89px 130px;
+    gap: 50px 157px;
+    text-align: center;
+    font-size: 39.03px;
+    font-family: var(--font-lexend-deca);
+}
+.incio-parent {
+    position: absolute;
+    top: 63px;
+    left: 577px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+    font-size: var(--bold-h5-sub-ttulo-bold-size);
+}
+
+
+.clean1 {
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    font-weight: 800;
+}
+.mask-group-icon1 {
+    position: absolute;
+    top: 63px;
+    left: 95px;
+    width: 133.9px;
+    height: 43.6px;
+    object-fit: cover;
+}
+.faucet-svgrepo-com-1-icon {
+    position: absolute;
+    top: 10px;
+    left: 156px;
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.logo1 {
+    position: absolute;
+    color: white;
+    top: 28px;
+    left: 80px;
+    width: 229px;
+    height: 112px;
+    text-align: center;
+    font-size: 45.3px;
+    font-family: var(--font-lexend-deca);
+}
+.desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: #2b2b2b;
+    height: 4841px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-style-padro-white);
+    font-family: var(--regular-h6-pargrafo-regular);
+}
+
+
+.frame-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.entre-com {
+    align-self: stretch;
+    position: relative;
+    font-size: 26.28px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+.e-mail {
+    position: relative;
+    font-weight: 800;
+}
+.fechar_login {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+
+}
+.input_email {
+    display: block;
+    width: 473.9px;
+    height: 46px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--color-gainsboro);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 8.21px;
+    transition: ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.FUNDO-INPUT-EMAIL {
+    width: 473.9px;
+    border-radius: 8.21px;
+    background-color: var(--color-gainsboro);
+    height: 46px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.entre-com-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xl-6);
+    color: var(--color-gray-100);
+}
+.btn_entrar {
+    color: white;
+    border-color: transparent;
+    width: 221.7px;
+    border-radius: 8.21px;
+    background-color: var(--color-cornflowerblue);
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-4xs-2);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btn_cadastrar {
+    color: white;
+    border-color: transparent;
+    width: 221.7px;
+    border-radius: 8.21px;
+    background-color: var(--color-cornflowerblue);
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-4xs-2);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.entrar-wrapper {
+    width: 221.7px;
+    border-radius: 8.21px;
+    background-color: var(--color-cornflowerblue);
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.cadastrar-wrapper {
+    width: 221.7px;
+    border-radius: 8.21px;
+    background-color: var(--color-cornflowerblue);
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.frame-parent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 19.71px;
+}
+.lembrar-minha-senha {
+    position: absolute;
+    top: 4.11px;
+    left: 23.82px;
+}
+.check {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4.11px;
+    background-color: var(--color-lightgray);
+    width: 20.5px;
+    height: 20.5px;
+}
+.lembrar-minha-senha-parent {
+    width: 137.8px;
+    position: relative;
+    height: 20.5px;
+}
+.esqueci-minha-senha {
+    position: relative;
+    color: var(--color-style-padro-white);
+}
+.group-parent_senha {
+    width: 473.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 9.86px;
+    color: var(--color-black);
+}
+.line-div {
+    width: 128.1px;
+    position: relative;
+    border-top: 0.8px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 0.8px;
+}
+.line-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11.5px;
+}
+.frame-child5 {
+    width: 49.3px;
+    position: relative;
+    height: 49.3px;
+}
+.group-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl-6);
+}
+.frame-parent3 {
+    position: absolute;
+    top: 205.31px;
+    left: calc(50% - 236.52px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20.5px;
+}
+.clean2 {
+    position: absolute;
+    top: 15.82px;
+    left: 0px;
+    font-weight: 800;
+}
+.mask-group-icon2 {
+    position: absolute;
+    top: 90.6px;
+    left: 136.62px;
+    width: 192.5px;
+    height: 62.8px;
+    object-fit: cover;
+}
+.faucet-svgrepo-com-1-icon1 {
+    position: absolute;
+    top: 14.38px;
+    left: 224.34px;
+    width: 83.4px;
+    height: 83.4px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.logo2 {
+    position: absolute;
+    top: 30.9px;
+    left: calc(50% - 165.07px);
+    width: 329.3px;
+    height: 161.1px;
+    font-size: 65.15px;
+    color: #00c2ed;
+    font-family: var(--font-lexend-deca);
+}
+.fi-rr-cross-circle-icon {
+    position: absolute;
+    top: 36.13px;
+    left: 565.84px;
+    width: 49.3px;
+    height: 49.3px;
+    overflow: hidden;
+}
+.frame-root {
+    width: 657px;
+    position: relative;
+    border-radius: 82.13px;
+    background-color: var(--color-style-padro-white);
+    height: 657px;
+    overflow: hidden;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    font-size: 16.43px;
+    color: var(--color-style-padro-white);
+    font-family: var(--font-montserrat);
+}
+
+.container_1 {
+    height: 1616px;
+    width: 100%;
+}
+.container_2 {
+    height: 1410px;
+    width: 100%;
+}
+.container_3 {
+    position: absolute;
+    top: 4000px;
+    height: 1205px;
+    width: 100%;
+}
+.carousel {
+    margin-top: 250px;
+}
+
+.footer {
+    
+    top: 3982px;
+    height: 612px;
+    width: 100%;
+    top: 2000px;
+}   
+
+.ondas-icon {
+    position: absolute;
+    top: 444.3px;
+    left: -555.22px;
+    width: 1537.4px;
+    height: 704.7px;
+}
+.cadastre-se {
+    align-self: stretch;
+    position: relative;
+    font-size: 26.28px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.e-mail {
+    position: relative;
+    font-weight: 800;
+}
+.e-mail-wrapper {
+    width: 473.9px;
+    border-radius: 8.21px;
+    background-color: var(--color-gainsboro);
+    height: 46px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9.9px var(--padding-mid-2);
+    box-sizing: border-box;
+}
+
+.input_senha {
+    display: block;
+    width: 473.9px;
+    height: 46px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--color-gainsboro);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 8.21px;
+    transition: ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.FUNDO-INPUT-EMAIL {
+    width: 473.9px;
+    height: 46px;
+    border-radius: 8.21px;
+    background-color: var(--color-gainsboro);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.cadastre-se-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xl-6);
+}
+.cadastrar {
+    position: relative;
+}
+.frame-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 19.71px;
+    color: var(--color-white);
+}
+.frame-child1 {
+    width: 128.1px;
+    position: relative;
+    border-top: 0.8px solid var(--color-lightgray);
+    box-sizing: border-box;
+    height: 0.8px;
+}
+.line-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11.5px;
+    color: #000;
+}
+.frame-inner {
+    width: 49.3px;
+    position: relative;
+    height: 49.3px;
+}
+.group-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl-6);
+}
+.frame-parent {
+    position: absolute;
+    top: 77px;
+    left: calc(50% - 236.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20.5px;
+}
+.ionarrow-back-circle-outline-icon {
+    width: 62px;
+    position: relative;
+    height: 62px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.fi-rr-cross-circle-icon {
+    width: 49.3px;
+    position: relative;
+    height: 49.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.ionarrow-back-circle-outline-parent {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    width: 657px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    box-sizing: border-box;
+}
+.cadastre-se.popup {
+    width: 100%;
+    position: relative;
+    border-radius: 82.13px;
+    background-color: var(--color-white);
+    height: 657px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16.43px;
+    color: var(--color-gray-100);
+    font-family: var(--font-montserrat);
+}
+
